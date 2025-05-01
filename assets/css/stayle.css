@@ -1,0 +1,299 @@
+main {
+    background-image: url(../img/bg1.jpg);
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+
+    >.parte1 {
+        background-color: rgba(0, 0, 0, 0.684);
+        >.parte22 {
+            >.ayr {
+                >img {
+                    width: 200px;
+                }
+            }
+
+            >.ayr1 {
+                >img {
+                    width: 450px;
+                }
+            }
+        }
+
+    }
+
+    >.pp {
+        background-color: rgba(0, 0, 0, 0.684);
+        padding-top: 30px;
+
+        >.tt {
+            >.cc {
+                >ul {
+                    display: flex;
+                    gap: 15px;
+
+                    >li {
+                        list-style: none;
+                        &:first-of-type{
+                            >a{
+                                color: #446aff;
+
+                            }
+
+                        }
+                        >a {
+                            text-decoration: none;
+                            color: white;
+                          
+
+                            &:hover {
+                                color: #446aff;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    >.parte9 {
+        background-color: rgba(0, 0, 0, 0.684);
+        padding-top: 30px;
+
+        >.parte10 {
+            >.parte11 {
+                position: relative;
+
+                >figure {
+                    overflow: hidden;
+                    border-radius: 10px;
+
+                    >img {
+                        width: 300px;
+                        transition: 1s;
+                        border-radius: 10px;
+
+                        &:hover {
+                            filter: contrast(70%);
+                            transform: scale(1.1);
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                >h2 {
+                    position: absolute;
+                    top: 400px;
+                    color: white;
+                    font-size: 19px;
+                    width: 250px;
+                    padding: 6px;
+                }
+            }
+        }
+    }
+
+    >.var {
+        background-color: rgba(0, 0, 0, 0.684);
+        padding-top: 80px;
+
+        >.rav {
+            >.viar {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+                >div {
+                    >img {
+                        width: 450px;
+                    }
+                }
+
+                >span {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 10px;
+                    border: 1px solid #446aff;
+                    width: 450px;
+
+                    >h3 {
+                        color: #446aff;
+                        font-size: 18px;
+                    }
+
+                    >p {
+                        color: white;
+                    }
+
+                    >span {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+
+                        >i {
+                            color: white;
+
+                        }
+                    }
+                }
+            }
+
+            >.dir {
+                background-color: #111423bc;
+                padding: 15px 70px;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                width: 400px;
+
+                >h2 {
+                    color: white;
+                    font-size: 22px;
+                    width: 300px;
+                }
+
+                >p {
+                    color: white;
+                    width: 300px;
+                    text-align: center;
+                }
+
+                >input {
+                    width: 240px;
+                    margin-left: 40px;
+                    background-color: #1b254fc2;
+                    height: 40px;
+                    border: none;
+                    border: 1px solid #446aff;
+                    outline: none;
+                }
+
+                ::placeholder {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    >.biar {
+        background-color: rgba(0, 0, 0, 0.684);
+        padding-top: 80px;
+
+        >.des {
+         
+            >.ds {
+                >img {
+                  
+                    filter: brightness(50%);
+                    &:hover{
+                        cursor: pointer;
+                        filter: brightness(100%);
+
+                    }
+                }
+
+                >p {
+                    color: white;
+                    font-size: 20px;
+                }
+
+                >h3 {
+
+                    color: #446aff;
+                }
+            }
+        }
+    }
+
+    >.pes {
+        background-color: rgba(0, 0, 0, 0.684);
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 80px;
+
+        >.pes1 {
+            >.pes2 {
+                background-color: rgba(26, 30, 57, 0.73);
+
+                >p {
+                    color: gainsboro;
+                }
+
+                >h1 {
+                    color: white;
+                }
+
+                >button {
+                    background-color: transparent;
+                    color: white;
+                    border: 1px solid #243373;
+                    height: 45px;
+                    width: 200px;
+                    box-shadow: 0px 1px 32px 0px rgba(68, 106, 255, 0.4);
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #446aff;
+                    }
+                }
+
+            }
+        }
+    }
+
+    >.fot {
+        background-color: rgba(26, 30, 57, 0.884);
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        >.fot1 {
+
+            >.fot2 {
+                >img {
+                    width: 200px;
+                    height: 100px;
+                }
+
+                >h2 {
+                    color: white;
+                }
+
+                >h3 {
+                    color: rgb(154 154 161);
+                }
+
+                >span {
+                    display: flex;
+                    gap: 10px;
+
+
+
+                    >i {
+                        color: white;
+                        transition: .5s;
+                        font-size: 18px;
+
+                        &:hover {
+                            color: #446aff;
+                            cursor: pointer;
+
+                        }
+                    }
+
+                    >p {
+                        color: white;
+                        transition: .5s;
+
+                        &:hover {
+                            color: #446aff;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
